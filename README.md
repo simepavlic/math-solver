@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Example](#example)
 
 ## General info
 Computer vision project for solving simple math expressions
@@ -30,3 +31,12 @@ Docker:
 ```
 $ make docker-run
 ```
+
+## Example
+
+![alt text](images/original.jpg)
+![alt text](images/thresh.jpg)
+![alt text](images/0.jpg) ![alt text](images/1.jpg) ![alt text](images/2.jpg) ![alt text](images/3.jpg) ![alt text](images/4.jpg) ![alt text](images/5.jpg) ![alt text](images/6.jpg)
+
+Result:
+16
