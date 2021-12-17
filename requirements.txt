@@ -1,0 +1,7 @@
+numpy~=1.21.4
+flask~=2.0.2
+keras~=2.6.0
+imutils~=0.5.4
+tensorflow~=2.6.0
+scikit-learn~=1.0.1
+opencv

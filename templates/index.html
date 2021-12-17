@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Math Solver</title>
+{% endblock %}
+
+{% block body %}
+<div id="inner" class="content">
+    <h1>Math Solver</h1>
+    <form action="/solve" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" capture="camera">
+        <input type = "submit" value="Solve">
+    </form>
+    <br>
+   <br>
+    <h3>Solution:</h3>
+    <h3>{{ solution }}</h3>
+</div>
+{% endblock %}

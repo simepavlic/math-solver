@@ -1,0 +1,9 @@
+body {
+    margin: 0,
+    font-family: sans-sherif;
+}
+
+#inner {
+  width: 50%;
+  margin: 0 auto;
+}
