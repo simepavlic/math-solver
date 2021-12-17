@@ -9,8 +9,7 @@ RUN pip install -r requirements.txt
 COPY math_model ./math_model
 COPY templates ./templates
 COPY static ./static
-COPY utils ./utils
-COPY digit_locator.py ./digit_locator.py
+COPY symbol_locator.py ./symbol_locator.py
 COPY math_parser.py ./math_parser.py
 COPY math_solver.py ./math_solver.py
 COPY photo_solver.py ./photo_solver.py
