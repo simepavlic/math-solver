@@ -14,13 +14,13 @@ Project is created with:
 * keras version: 2.6.0
 
 ## Setup
-To install required packages for project, execute from project root:
+To install required packages for project:
 
 ```
-$ pip install -r /path/to/requirements.txt
+$ pip install -r requirements.txt
 ```
 
-To run app on your localhost:5000, execute from project root:
+To run app on your localhost:5000:
 
 ```
 $ python app.py
