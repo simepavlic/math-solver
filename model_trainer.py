@@ -56,6 +56,8 @@ if __name__ == "__main__":
 
     model = cnn_model()
 
+    # since we have categorical target values we are using categorical crossentropy as our loss
+    # accuracy is used as a metric because we value prediction accuracy of all classes the same and our data is balanced
     model.compile(optimizer='adam',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])

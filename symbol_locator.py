@@ -18,7 +18,7 @@ def write_contour_images(image, dest, name_prefix=''):
     counter = 0
     for c in cnts:
         (x, y, w, h) = cv2.boundingRect(c)
-        if 35 < cv2.contourArea(c) and w < 150 and h < 100:
+        if 35 < cv2.contourArea(c):
             thresh = img_thresh[y:y + h, x:x + w]
             (tH, tW) = thresh.shape
             # if the width is greater than the height, resize along the
